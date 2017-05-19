@@ -4,7 +4,6 @@
 }
 
 .navbar li a {
-  font-family: 'Chelsea Market', cursive;
   font-size: 18px;
 }
 
@@ -24,11 +23,72 @@ body {
 
 .well {
   background-color: rgba(128, 128, 128, 0.4);
+  color: white;
 }
 div .row .well {
   float: left;
   font-size: 18px;
-  padding: 14px;
+  padding: 5px;
   border: 2px solid black;
   margin: 12px;
+  width: 400px;
+}
+
+div .row .well img {
+  height: 390px;
+  width: 390px;
+  max-width: 390px;
+  max-height: 390px;
+}
+
+#pic_01-showing {
+  display: none;
+}
+
+#pic_02-showing {
+  display: none;
+}
+
+#pic_03-showing {
+  display: none;
+}
+
+#pic_04-showing {
+  display: none;
+}
+
+.clickable01 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable01:hover {
+  text-decoration: underline;
+}
+
+.clickable02 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable02:hover {
+  text-decoration: underline;
+}
+
+.clickable03 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable03:hover {
+  text-decoration: underline;
+}
+
+.clickable04 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable04:hover {
+  text-decoration: underline;
 }

@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The Gallery - Epicodus</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>The Gallery - Epicodus</title>
   </head>
-  <body>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -24,17 +23,50 @@
       </div>
     </nav>
     <div class="container-fluid">
-      <h3>Basic Navbar Example</h3>
-      <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 well">
-          <a href="#"><img class="img-responsive size img-rounded" src="img/smoke01.jpg"></a>
+          <h3>Oh. You need a little dummy text for your mockup? How quaint.</h3>
+          <p>Here is a JavaScript function that will toggle the image off and on as well as change the text.</p>
+          <div id="01-hidden">
+            <p>This is without the picture. <span class="clickable01">Click here</span> to see the image!</p>
+          </div>
+          <div id="pic_01-showing">
+            <p>Cool Image Bro! <span class="clickable01">Click here</span> to hide it again.</p>
+            <img src="img/smoke01.jpg">
+          </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 well">
-          <a href="#"><img class="img-responsive size img-rounded" src="img/smoke03.jpg">
+          <h3>Oh. You need a little dummy text for your mockup? How quaint.</h3>
+          <p>Here is a JavaScript function that will slide the image off and on as well as change the text.</p>
+          <div id="pic_02-hidden">
+            <p>This is without the picture. <span class="clickable02">Click here</span> to see the image!</p>
+          </div>
+          <div id="pic_02-showing">
+            <p>Cool Image Bro! <span class="clickable02">Click here</span> to hide it again.</p>
+            <img src="img/smoke02.jpg">
+          </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 well">
-          <a href="#"><img class="img-responsive size img-rounded" src="img/smoke02.jpg">
+          <h3>Oh. You need a little dummy text for your mockup? How quaint.</h3>
+          <p>Here is a JavaScript function that will fade the image in and out as well as change the text.</p>
+          <div id="pic_03-hidden">
+            <p>This is without the picture. <span class="clickable03">Click here</span> to see the image!</p>
+          </div>
+          <div id="pic_03-showing">
+            <p>Cool Image Bro! <span class="clickable03">Click here</span> to hide it again.</p>
+            <img src="img/smoke03.jpg">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 well">
+          <h3>Oh. You need a little dummy text for your mockup? How quaint.</h3>
+          <p>Here is a JavaScript function that will fade the image in and out as well as change the text.</p>
+          <div id="pic_04-hidden">
+            <p>This is without the picture. <span class="clickable04">Click here</span> to see the image!</p>
+          </div>
+          <div id="pic_04-showing">
+            <p>Cool Image Bro! <span class="clickable04">Click here</span> to hide it again.</p>
+            <img src="img/smoke04.jpg">
+          </div>
         </div>
       </div>
     </div>
